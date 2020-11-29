@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="Welcome to Raw Cipher"
-        subtitle="Stake LP tokens to claim your very own CIPHER tokens!"
+        title="Welcome to A Digital Bank"
+        subtitle="Stake LP tokens to claim your very own ADB tokens!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: CIPH-ETH LP token pool yields 5x more token
+        🏆<b>Pro Tip</b>: ADB-ETH LP token pool yields 5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />

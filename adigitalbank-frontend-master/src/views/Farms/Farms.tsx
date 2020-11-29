@@ -27,10 +27,10 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn CIPHER tokens by staking Uniswap LP Tokens. 
-                Note: Current APY does not include 2/3rd CIPHER emission that is 
+                subtitle="Earn ADB tokens by staking Uniswap LP Tokens. 
+                Note: Current APY does not include 2/3rd ADB emission that is 
                 locked and will be retroactively disbursed at a later date."
-                title="Select Your Favorite Ciphers"
+                title="Select Your Favorite Digital Banks"
               />
               <FarmCards />
             </Route>
