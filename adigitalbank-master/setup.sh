@@ -10,5 +10,5 @@ truffle run verify MasterChef --network rinkeby --license SPDX-License-Identifie
 # Flatten Contracts
 #./node_modules/.bin/truffle-flattener contracts/SushiToken.sol > flats/SushiToken_flat.sol
 #./node_modules/.bin/truffle-flattener contracts/MasterChef.sol > flats/MasterChef_flat.sol
-./node_modules/.bin/truffle-flattener contracts/CipherToken.sol > flats/SushiToken_flat.sol
+./node_modules/.bin/truffle-flattener contracts/DigitalBankToken.sol > flats/SushiToken_flat.sol
 ./node_modules/.bin/truffle-flattener contracts/MasterKey.sol > flats/MasterChef_flat.sol
