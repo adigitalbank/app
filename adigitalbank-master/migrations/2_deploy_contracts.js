@@ -1,4 +1,4 @@
-const SushiToken = artifacts.require('SushiToken.sol')
+const SushiToken = artifacts.require('DigitalBankToken.sol')
 const MasterChef = artifacts.require('MasterChef.sol')
 
 module.exports = async function(deployer) {

@@ -13,7 +13,7 @@
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
 
-import "./ADigitalBankToken.sol";
+import "./DigitalBankToken.sol";
 
 contract GovernorAlpha {
     /// @notice The name of this contract
@@ -42,7 +42,7 @@ contract GovernorAlpha {
 
     /// @notice The address of the Compound governance token
     // XXX: CompInterface public comp;
-    ADigitalBankToken public adbToken;
+    DigitalBankToken public adbToken;
 
     /// @notice The address of the Governor Guardian
     address public guardian;
@@ -147,7 +147,7 @@ contract GovernorAlpha {
 
     constructor(address timelock_, address adbToken_, address guardian_) public {
         timelock = TimelockInterface(timelock_);
-        adbToken = ADigitalBankToken(adbToken_);
+        adbToken = DigitalBankToken(adbToken_);
         guardian = guardian_;
     }
 

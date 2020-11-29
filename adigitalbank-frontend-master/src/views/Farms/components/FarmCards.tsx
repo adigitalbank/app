@@ -27,8 +27,9 @@ const FarmCards: React.FC = () => {
   const { account } = useWallet()
   const stakedValue = useAllStakedValue()
 
+  // this will get your apy
   const sushiIndex = farms.findIndex(
-    ({ tokenSymbol }) => tokenSymbol === 'ADB', // 'CIPHER'
+    ({ tokenSymbol }) => tokenSymbol === 'DB',
   )
 
   console.log(stakedValue);

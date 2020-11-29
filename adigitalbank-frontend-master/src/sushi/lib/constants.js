@@ -478,10 +478,10 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   cipher: {
-    4: '0xB0fCB7a7b8c1f936254DB0AA48F27e724Be01e86',
+    4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
   },
   masterKey: {
-    4: '0xf51CDD02817d24d3fBCA543F4af5064582580f0E',
+    4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
