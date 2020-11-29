@@ -22,13 +22,13 @@ interface StakeProps {
 }
 
 const StakeSushi: React.FC<StakeProps> = ({}) => {
-  const tokenName = "CIPHER"
+  const tokenName = "DB"
   const [requestedApproval, setRequestedApproval] = useState(false)
 
   const allowance = useAllowanceStaking()
   const {onApprove} = useApproveStaking()
 
-  const tokenBalance = useTokenBalance(contractAddresses.cipher[CHAIN_ID])
+  const tokenBalance = useTokenBalance(contractAddresses.db[CHAIN_ID])
 
   const {onEnter} = useEnter()
   const {onLeave} = useLeave()

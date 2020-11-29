@@ -6,9 +6,9 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href="#"
+        href="https://rinkeby.etherscan.io/address/0x92Bf24109753D7038D4Cf216D43850c81FA0a589"
       >
-        JuiceMaster Contract
+        MasterChef Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"

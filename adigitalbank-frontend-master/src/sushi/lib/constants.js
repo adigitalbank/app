@@ -477,7 +477,7 @@ export const CHAIN_ID = 4
 // }
 
 export const contractAddresses = {
-  cipher: {
+  db: {
     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
   },
   masterKey: {
@@ -506,5 +506,18 @@ export const supportedPools = [
     symbol: 'DAI-ETH LP',
     tokenSymbol: 'DAI',
     icon: '🐱‍👤',
+  },
+  {
+    pid: 0,
+    lpAddresses: {
+      4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
+    },
+    tokenAddresses: {
+      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
+    },
+    name: 'Go Digital',
+    symbol: 'DB-ETH LP',
+    tokenSymbol: 'DB',
+    icon: '🏛',
   },
 ]
