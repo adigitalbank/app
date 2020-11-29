@@ -457,7 +457,7 @@ SLP Address on mainnet for reference
 
 
 
-// CIPHERSWAP SETTINGS
+// Digital Bank SETTINGS
 
 export const CHAIN_ID = 4
 
@@ -515,7 +515,7 @@ export const supportedPools = [
     tokenAddresses: {
       4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
     },
-    name: 'Go Digital',
+    name: 'Digital Bank Central',
     symbol: 'DB-ETH LP',
     tokenSymbol: 'DB',
     icon: '🏛',
