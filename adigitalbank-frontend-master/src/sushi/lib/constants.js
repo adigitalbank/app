@@ -508,7 +508,7 @@ export const supportedPools = [
     icon: '🐱‍👤',
   },
   {
-    pid: 0,
+    pid: 1,
     lpAddresses: {
       4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
     },
