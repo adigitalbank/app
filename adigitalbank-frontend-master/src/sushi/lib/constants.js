@@ -520,4 +520,32 @@ export const supportedPools = [
     tokenSymbol: 'DB',
     icon: '🏛',
   },
+  {
+    pid: 2,
+    lpAddresses: {
+      4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // LP Token Address
+    },
+    tokenAddresses: {
+      4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // Token, i.e. "DB"
+    },
+    name: 'We Love Diamonds',
+    symbol: 'Digital Bank Token',
+    tokenSymbol: 'DB',
+    icon: '💎',
+  },
+  // {
+  //   pid: 3,
+  //   lpAddresses: {
+  //     4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92 ', // proxy Address
+  //   },
+  //   tokenAddresses: {
+  //     4: '0xeF1cA11Ef59a034c42462266fED8053fa6027616 ', // Token, i.e. "DB"
+  //     // 0xeF1cA11Ef59a034c42462266fED8053fa6027616 token contract
+  //     // 0xf6222de314df78f3df65d27d5ed62ac6d7bfed92 proxy contract
+  //   },
+  //   name: 'Digital Bank Only',
+  //   symbol: 'DB',
+  //   tokenSymbol: 'DB',
+  //   icon: '🏛',
+  // },
 ]

@@ -34,7 +34,7 @@ const FarmCards: React.FC = () => {
 
   console.log(stakedValue);
 
-  const sushiPrice =
+  const dbPrice =
     sushiIndex >= 0 && stakedValue[sushiIndex]
       ? stakedValue[sushiIndex].tokenPriceInWeth
       : new BigNumber(0)
@@ -48,7 +48,7 @@ const FarmCards: React.FC = () => {
         ...farm,
         ...stakedValue[i],
         apy: stakedValue[i]
-          ? sushiPrice
+          ? dbPrice
               .times(DB_PER_BLOCK)
               .times(BLOCKS_PER_YEAR)
               .times(stakedValue[i].poolWeight)
