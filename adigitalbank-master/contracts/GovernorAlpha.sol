@@ -12,7 +12,6 @@
 // XXX: pragma solidity ^0.5.16;
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
-
 import "./DigitalBankToken.sol";
 
 contract GovernorAlpha {

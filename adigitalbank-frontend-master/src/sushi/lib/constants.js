@@ -478,6 +478,7 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
+    //4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92',
     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
   },
   masterKey: {
@@ -490,8 +491,6 @@ export const contractAddresses = {
     4: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272' // NOTE: Not in use
   }
 }
-
-
 
 export const supportedPools = [
   {
@@ -507,6 +506,7 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
+  // original token
   {
     pid: 1,
     lpAddresses: {
@@ -520,19 +520,33 @@ export const supportedPools = [
     tokenSymbol: 'DB',
     icon: '🏛',
   },
+  
   {
     pid: 2,
     lpAddresses: {
-      4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // LP Token Address
+      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
     },
     tokenAddresses: {
-      4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // Token, i.e. "DB"
+      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
     },
     name: 'We Love Diamonds',
-    symbol: 'Digital Bank Token',
+    symbol: 'DB',
     tokenSymbol: 'DB',
     icon: '💎',
   },
+  // {
+  //   pid: 2,
+  //   lpAddresses: {
+  //     4: '0x0ef2fb1e8e4862c9d6ced7473b480b8c37afc032', // LP Token Address
+  //   },
+  //   tokenAddresses: {
+  //     4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
+  //   },
+  //   name: 'With Love',
+  //   symbol: 'DB-ETH LP',
+  //   tokenSymbol: 'DB',
+  //   icon: '🎗',
+  // },
   // {
   //   pid: 3,
   //   lpAddresses: {
