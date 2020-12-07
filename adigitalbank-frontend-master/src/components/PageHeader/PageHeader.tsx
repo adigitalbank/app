@@ -40,7 +40,7 @@ const StyledIcon = styled.div`
 `
 
 const StyledTitle = styled.h1`
-  font-family: 'Kaushan Script', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: ${(props) => props.theme.color.grey[600]};
   font-size: 36px;
   text-align: center;
