@@ -453,33 +453,14 @@ SLP Address on mainnet for reference
 //  },
 // ]
 
-
-
-
-
 // Digital Bank SETTINGS
 
 export const CHAIN_ID = 4
 
-// export const contractAddresses = {
-//   sushi: {
-//     4: '0xB0fCB7a7b8c1f936254DB0AA48F27e724Be01e86',
-//   },
-//   masterChef: {
-//     4: '0xf51CDD02817d24d3fBCA543F4af5064582580f0E',
-//   },
-//   weth: {
-//     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
-//   },
-//   xSushi: {
-//     4: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272' // NOTE: Not in use
-//   }
-// }
-
 export const contractAddresses = {
   db: {
-    //4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92',
-    4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
+    4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z token
+    //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
   },
   masterKey: {
     4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
@@ -506,7 +487,6 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
-  // original token
   {
     pid: 1,
     lpAddresses: {
@@ -530,36 +510,35 @@ export const supportedPools = [
       4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
     },
     name: 'We Love Diamonds',
-    symbol: 'DB',
+    symbol: 'DB Token',
     tokenSymbol: 'DB',
     icon: '💎',
   },
-  // {
-  //   pid: 2,
-  //   lpAddresses: {
-  //     4: '0x0ef2fb1e8e4862c9d6ced7473b480b8c37afc032', // LP Token Address
-  //   },
-  //   tokenAddresses: {
-  //     4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
-  //   },
-  //   name: 'With Love',
-  //   symbol: 'DB-ETH LP',
-  //   tokenSymbol: 'DB',
-  //   icon: '🎗',
-  // },
-  // {
-  //   pid: 3,
-  //   lpAddresses: {
-  //     4: '0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92 ', // proxy Address
-  //   },
-  //   tokenAddresses: {
-  //     4: '0xeF1cA11Ef59a034c42462266fED8053fa6027616 ', // Token, i.e. "DB"
-  //     // 0xeF1cA11Ef59a034c42462266fED8053fa6027616 token contract
-  //     // 0xf6222de314df78f3df65d27d5ed62ac6d7bfed92 proxy contract
-  //   },
-  //   name: 'Digital Bank Only',
-  //   symbol: 'DB',
-  //   tokenSymbol: 'DB',
-  //   icon: '🏛',
-  // },
+  //0xf55e16d7013f8955bb862a716637d6267a288b45  Z Token
+  {
+    pid: 3,
+    lpAddresses: {
+      4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+    },
+    tokenAddresses: {
+      4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+    },
+    name: 'Zed\'s Dead',
+    symbol: 'Z Token',
+    tokenSymbol: 'Z',
+    icon: '🔪',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      4: '0x34f570b261f6fb5f2aa7d370e09e0deda7b88435', // Z-ETH LP
+    },
+    tokenAddresses: {
+      4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z Token
+    },
+    name: 'Zed\'s Dead 2',
+    symbol: 'Z-ETH LP',
+    tokenSymbol: 'Z',
+    icon: '🔪',
+  },
 ]

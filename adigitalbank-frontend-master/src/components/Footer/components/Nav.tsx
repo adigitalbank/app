@@ -10,12 +10,12 @@ const Nav: React.FC = () => {
       >
         MasterChef Contract
       </StyledLink>
-      {/*<StyledLink
+      <StyledLink
         target="_blank"
-        href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
+        href="https://uniswap.info/pair/0xB2467706A6BC6458CF8D71ae32b82BC839271e2e"
       >
-        SushiSwap SUSHI-ETH
-      </StyledLink> */}
+        Uniswap DB-ETH
+      </StyledLink>
       <StyledLink target="_blank" href="#">
         Discord
       </StyledLink>
