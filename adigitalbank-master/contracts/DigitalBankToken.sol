@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 // ADigitalBankToken with Governance.
-contract DigitalBankToken is ERC20("Z Token", "Z"), Ownable {
+contract DigitalBankToken is ERC20("Digital Bank Token", "DB"), Ownable {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
