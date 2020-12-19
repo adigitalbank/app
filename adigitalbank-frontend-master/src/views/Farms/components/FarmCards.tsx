@@ -29,7 +29,7 @@ const FarmCards: React.FC = () => {
 
   // this will get your apy
   const sushiIndex = farms.findIndex(
-    ({ tokenSymbol }) => tokenSymbol === 'DB',
+    ({ tokenSymbol }) => tokenSymbol === 'Z',
   )
 
   console.log(stakedValue);

@@ -459,11 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    //4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z token
-    4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',
+    4: '0xa65D1C7aAb6191Ee9723641ee218eC992D0126A9', // Z token
+    //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
-    4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
+    //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
+    4: '0x05B2Fe7Ff107f33b6be674b6f5dBa7E4696549Fa',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -487,17 +488,30 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
+  // {
+  //   pid: 1,
+  //   lpAddresses: {
+  //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
+  //   },
+  //   tokenAddresses: {
+  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
+  //   },
+  //   name: 'Digital Bank Central',
+  //   symbol: 'DB-ETH LP',
+  //   tokenSymbol: 'DB',
+  //   icon: '🏛',
+  // },
   {
     pid: 1,
     lpAddresses: {
-      4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
+      4: '0xD832C9CAf81f33BC1b3aFc89B90E45bFAee3b0ca', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
+      4: '0xa65D1C7aAb6191Ee9723641ee218eC992D0126A9', // Token, i.e. "Z"
     },
     name: 'Digital Bank Central',
-    symbol: 'DB-ETH LP',
-    tokenSymbol: 'DB',
+    symbol: 'Z-ETH LP',
+    tokenSymbol: 'Z',
     icon: '🏛',
   },
   

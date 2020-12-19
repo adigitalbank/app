@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={logo} height={120} />}
         title="Welcome to Digital Bank"
-        subtitle="Stake LP tokens to claim your very own DB tokens!"
+        subtitle="Stake LP tokens to claim your very own Z tokens!"
       />
 
       <Container>
