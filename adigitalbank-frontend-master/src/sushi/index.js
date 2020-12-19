@@ -7,4 +7,5 @@ BigNumber.config({
 })
 
 export { Sushi } from './Sushi.js'
+export { Z } from './Z.js'
 export { Web3, BigNumber }

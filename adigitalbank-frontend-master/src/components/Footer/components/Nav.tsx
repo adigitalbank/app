@@ -12,9 +12,9 @@ const Nav: React.FC = () => {
       </StyledLink>
       <StyledLink
         target="_blank"
-        href="https://uniswap.info/pair/0xB2467706A6BC6458CF8D71ae32b82BC839271e2e"
+        href="https://uniswap.info/pair/0x37c0fd759c06c03b6b81f12de36cca4d195c19ca"
       >
-        Uniswap DB-ETH
+        Uniswap Z-ETH
       </StyledLink>
       <StyledLink target="_blank" href="#">
         Discord

@@ -790,14 +790,12 @@ contract Ownable is Context {
     }
 }
 
-// File: contracts\DigitalBankToken.sol
+// File: contracts\ZToken.sol
 
-pragma solidity 0.6.12;
-
-
+pragma solidity 0.6.12;
 
 // ADigitalBankToken with Governance.
-contract DigitalBankToken is ERC20("Digital Bank Token", "DB"), Ownable {
+contract ZToken is ERC20("Z", "Z"), Ownable {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);

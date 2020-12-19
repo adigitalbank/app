@@ -3,6 +3,7 @@ import ERC20Abi from './abi/erc20.json'
 import MasterChefAbi from './abi/masterchef.json'
 import XSushiAbi from './abi/xsushi.json'
 import SushiAbi from './abi/sushi.json'
+import ZAbi from './abi/z.json'
 import UNIV2PairAbi from './abi/uni_v2_lp.json'
 import WETHAbi from './abi/weth.json'
 import {
@@ -23,6 +24,7 @@ export class Contracts {
     this.defaultGasPrice = options.defaultGasPrice
 
     this.sushi = new this.web3.eth.Contract(SushiAbi)
+    this.z = new this.web3.eth.Contract(ZAbi)
     this.masterChef = new this.web3.eth.Contract(MasterChefAbi)
     this.xSushiStaking = new this.web3.eth.Contract(XSushiAbi)
     this.weth = new this.web3.eth.Contract(WETHAbi)
@@ -48,6 +50,7 @@ export class Contracts {
     }
 
     setProvider(this.sushi, contractAddresses.db[networkId])
+    //setProvider(this.z, contractAddresses.z[networkId])
     setProvider(this.masterChef, contractAddresses.masterKey[networkId])
     setProvider(this.xSushiStaking, contractAddresses.xSushi[networkId])
     setProvider(this.weth, contractAddresses.weth[networkId])

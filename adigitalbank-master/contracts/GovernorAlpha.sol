@@ -12,12 +12,12 @@
 // XXX: pragma solidity ^0.5.16;
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
-import "./DigitalBankToken.sol";
+import "./ZToken.sol";
 
 contract GovernorAlpha {
     /// @notice The name of this contract
     // XXX: string public constant name = "Compound Governor Alpha";
-    string public constant name = "DB Token Governor Alpha";
+    string public constant name = "Z Token Governor Alpha";
 
     /// @notice The number of votes in support of a proposal required in order for a quorum to be reached and for a vote to succeed
     // XXX: function quorumVotes() public pure returns (uint) { return 400000e18; } // 400,000 = 4% of Comp
@@ -41,7 +41,7 @@ contract GovernorAlpha {
 
     /// @notice The address of the Compound governance token
     // XXX: CompInterface public comp;
-    DigitalBankToken public adbToken;
+    ZToken public adbToken;
 
     /// @notice The address of the Governor Guardian
     address public guardian;
@@ -146,7 +146,7 @@ contract GovernorAlpha {
 
     constructor(address timelock_, address adbToken_, address guardian_) public {
         timelock = TimelockInterface(timelock_);
-        adbToken = DigitalBankToken(adbToken_);
+        adbToken = ZToken(adbToken_);
         guardian = guardian_;
     }
 

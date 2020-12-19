@@ -459,12 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0xa65D1C7aAb6191Ee9723641ee218eC992D0126A9', // Z token
+    4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
     //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0x05B2Fe7Ff107f33b6be674b6f5dBa7E4696549Fa',
+    4: '0xa7F5F520fA907766ebDe00b49226F9887bf1841B',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -504,10 +504,10 @@ export const supportedPools = [
   {
     pid: 1,
     lpAddresses: {
-      4: '0xD832C9CAf81f33BC1b3aFc89B90E45bFAee3b0ca', // LP Token Address
+      4: '0x37C0FD759C06c03B6b81f12dE36cCA4d195c19CA', // LP Token Address
     },
     tokenAddresses: {
-      4: '0xa65D1C7aAb6191Ee9723641ee218eC992D0126A9', // Token, i.e. "Z"
+      4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Token, i.e. "Z"
     },
     name: 'Digital Bank Central',
     symbol: 'Z-ETH LP',
