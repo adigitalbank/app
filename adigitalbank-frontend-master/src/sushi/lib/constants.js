@@ -501,44 +501,44 @@ export const supportedPools = [
     icon: '🏛',
   },
   
-  {
-    pid: 2,
-    lpAddresses: {
-      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
-    },
-    tokenAddresses: {
-      4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
-    },
-    name: 'We Love Diamonds',
-    symbol: 'DB Token',
-    tokenSymbol: 'DB',
-    icon: '💎',
-  },
+  // {
+  //   pid: 2,
+  //   lpAddresses: {
+  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
+  //   },
+  //   tokenAddresses: {
+  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0',//'0xf6222DE314Df78f3dF65D27d5eD62AC6D7bfeD92', // proxy Token Address
+  //   },
+  //   name: 'We Love Diamonds',
+  //   symbol: 'DB Token',
+  //   tokenSymbol: 'DB',
+  //   icon: '💎',
+  // },
   //0xf55e16d7013f8955bb862a716637d6267a288b45  Z Token
-  {
-    pid: 3,
-    lpAddresses: {
-      4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
-    },
-    tokenAddresses: {
-      4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
-    },
-    name: 'Zed\'s Dead',
-    symbol: 'Z Token',
-    tokenSymbol: 'Z',
-    icon: '🔪',
-  },
-  {
-    pid: 4,
-    lpAddresses: {
-      4: '0x34f570b261f6fb5f2aa7d370e09e0deda7b88435', // Z-ETH LP
-    },
-    tokenAddresses: {
-      4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z Token
-    },
-    name: 'Zed\'s Dead 2',
-    symbol: 'Z-ETH LP',
-    tokenSymbol: 'Z',
-    icon: '🔪',
-  },
+  // {
+  //   pid: 3,
+  //   lpAddresses: {
+  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+  //   },
+  //   tokenAddresses: {
+  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+  //   },
+  //   name: 'Zed\'s Dead',
+  //   symbol: 'Z Token',
+  //   tokenSymbol: 'Z',
+  //   icon: '🔪',
+  // },
+  // {
+  //   pid: 4,
+  //   lpAddresses: {
+  //     4: '0x34f570b261f6fb5f2aa7d370e09e0deda7b88435', // Z-ETH LP
+  //   },
+  //   tokenAddresses: {
+  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z Token
+  //   },
+  //   name: 'Zed\'s Dead 2',
+  //   symbol: 'Z-ETH LP',
+  //   tokenSymbol: 'Z',
+  //   icon: '🔪',
+  // },
 ]
