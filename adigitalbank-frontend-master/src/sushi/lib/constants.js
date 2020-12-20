@@ -470,7 +470,7 @@ export const contractAddresses = {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   },
   xSushi: {
-    4: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272' // NOTE: Not in use
+    4: '0xf55E16D7013f8955bb862A716637d6267A288b45',//'0xEbbfB4399B15199cDc993618bB06016822AeF9EE' // Staking token
   }
 }
 
