@@ -27,8 +27,8 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn DB tokens by staking Uniswap LP Tokens. 
-                Note: Current APY does not include 2/3rd DB emission that is 
+                subtitle="Earn Z tokens by staking Uniswap LP Tokens. 
+                Note: Current APY does not include 2/3rd Z emission that is 
                 locked and will be retroactively disbursed at a later date."
                 title="Select Your Favorite Digital Banks"
               />

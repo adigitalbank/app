@@ -9,7 +9,10 @@ const Nav: React.FC = () => {
         Home
       </StyledLink>
       <StyledLink exact activeClassName="active" to="/farms">
-        Menu
+        Banks
+      </StyledLink>
+      <StyledLink exact activeClassName="active" to="/staking">
+        Staking
       </StyledLink>
       {/* <StyledAbsoluteLink
         href="#"

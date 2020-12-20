@@ -1,5 +1,6 @@
 //const DigitalBankToken = artifacts.require('DigitalBankToken.sol')
 const ZToken = artifacts.require('ZToken.sol')
+const yToken = artifacts.require('yZToken.sol')
 const MasterChef = artifacts.require('MasterChef.sol')
 
 module.exports = async function(deployer) {
@@ -9,6 +10,9 @@ module.exports = async function(deployer) {
 
   await deployer.deploy(ZToken)
   const zToken = await ZToken.deployed()
+
+  await deployer.deploy(yZToken)
+  const yzToken = await yZToken.deployed()
 
   // Deploy Masterchef Contract
   await deployer.deploy(

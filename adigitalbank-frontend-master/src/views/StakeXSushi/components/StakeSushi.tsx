@@ -22,7 +22,7 @@ interface StakeProps {
 }
 
 const StakeSushi: React.FC<StakeProps> = ({}) => {
-  const tokenName = "DB"
+  const tokenName = "Z"
   const [requestedApproval, setRequestedApproval] = useState(false)
 
   const allowance = useAllowanceStaking()
@@ -61,20 +61,20 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
           <StyledCardHeader>
             <CardIcon>👨🏻‍🍳</CardIcon>
             <Value value={getBalanceNumber(tokenBalance)}/>
-            <Label text={`CIPHER Tokens Available`}/>
+            <Label text={`Z Tokens Available`}/>
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
                 disabled={requestedApproval}
                 onClick={handleApprove}
-                text={`Approve CIPHER`}
+                text={`Approve Z`}
               />
             ) : (
               <>
                 <Button
                   disabled={tokenBalance.eq(new BigNumber(0))}
-                  text="Convert to xCIPHER"
+                  text="Convert to yZ"
                   onClick={onPresentDeposit}
                 />
                 <StyledActionSpacer/>
