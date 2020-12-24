@@ -464,7 +464,7 @@ export const contractAddresses = {
   },
   masterKey: {
     //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0xa7F5F520fA907766ebDe00b49226F9887bf1841B',
+    4: '0x6d2459D8dFf36d02B2B9bcb40a9Bc53A8434EE45',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
