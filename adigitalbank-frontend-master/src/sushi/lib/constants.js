@@ -459,7 +459,7 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Z token
+    4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
@@ -488,8 +488,7 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
-  // {
-  //   pid: 1,
+/   pid: 1,
   //   lpAddresses: {
   //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
   //   },
@@ -513,6 +512,20 @@ export const supportedPools = [
     symbol: 'Z-ETH LP',
     tokenSymbol: 'Z',
     icon: '🏛',
+  },
+  
+    {
+     pid: 2,
+    lpAddresses: {
+       4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435', // proxy Token Address
+     },
+     tokenAddresses: {
+       4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // proxy Token Address
+     },
+     name: 'We Love Diamonds',
+     symbol: 'Z Token',
+     tokenSymbol: 'Z',
+     icon: '💎',
   },
   
   // {
