@@ -528,6 +528,20 @@ export const supportedPools = [
      icon: '💎',
   },
   
+  {
+  pid: 3,
+  lpAddresses: {
+  4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435',
+  },
+  tokenAddresses: {
+  4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+  },
+  name: 'Zed\'s Dead',
+  symbol: 'Z Token',
+  tokenSymbol: 'Z',
+  icon: '🔪',
+  },
+  
   // {
   //   pid: 2,
   //   lpAddresses: {
