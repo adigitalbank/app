@@ -508,9 +508,9 @@ export const supportedPools = [
     tokenAddresses: {
       4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Token, i.e. "Z"
     },
-    name: 'Digital Bank Central',
-    symbol: 'Z-ETH LP',
-    tokenSymbol: 'Z',
+    name: 'Rocket',
+    symbol: 'R-ETH LP',
+    tokenSymbol: 'R',
     icon: '🏛',
   },
   
