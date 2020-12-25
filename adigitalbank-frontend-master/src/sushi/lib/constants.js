@@ -459,12 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Z token
+    4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
     //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0x09354fb55d65777a2d453947358aac4ea5703714',
+    4: '0xa7F5F520fA907766ebDe00b49226F9887bf1841B',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -503,14 +503,14 @@ export const supportedPools = [
   {
     pid: 1,
     lpAddresses: {
-      4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // LP Token Address
+      4: '0x37C0FD759C06c03B6b81f12dE36cCA4d195c19CA', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Token, i.e. "Z"
+      4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Token, i.e. "Z"
     },
     name: 'Rocket',
-    symbol: 'R-ETH LP',
-    tokenSymbol: 'R',
+    symbol: 'Z-ETH LP',
+    tokenSymbol: 'Z',
     icon: '🏛',
   },
   
