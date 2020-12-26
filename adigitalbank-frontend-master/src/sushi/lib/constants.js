@@ -569,17 +569,17 @@ export const supportedPools = [
   //   tokenSymbol: 'Z',
   //   icon: '🔪',
   // },
-  // {
-  //   pid: 4,
-  //   lpAddresses: {
-  //     4: '0x34f570b261f6fb5f2aa7d370e09e0deda7b88435', // Z-ETH LP
-  //   },
-  //   tokenAddresses: {
-  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // Z Token
-  //   },
-  //   name: 'Zed\'s Dead 2',
-  //   symbol: 'Z-ETH LP',
-  //   tokenSymbol: 'Z',
-  //   icon: '🔪',
-  // },
+  {
+  pid: 4,
+  lpAddresses: {
+  4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
+  },
+  tokenAddresses: {
+  4: '0x4a972eb7faa52a91811bfee67237c921124ab718', // MNG Token
+  },
+  name: 'Miami Mango',
+  symbol: 'MNG-ETH LP',
+  tokenSymbol: 'MNG',
+  icon: '🔪',
+  },
 ]
