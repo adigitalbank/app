@@ -459,12 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Z token
+    4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
     //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0xa7F5F520fA907766ebDe00b49226F9887bf1841B',
+    4: '0x13cD8eFd242b2B8163d074F6906f7a20912398A6',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -475,18 +475,18 @@ export const contractAddresses = {
 }
 
 export const supportedPools = [
-  {
-    pid: 0,
-    lpAddresses: {
-      4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // LP Token Address
-    },
-    tokenAddresses: {
-      4: '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa', // Token, i.e. "DAI"
-    },
-    name: 'Dai Bank',
-    symbol: 'DAI-ETH LP',
-    tokenSymbol: 'DAI',
-    icon: '🕋',
+    {
+  pid: 0,
+  lpAddresses: {
+  4: '0x2a92099e66068eb745f00eba95b48039cf934da3', // ROCKET LP
+  },
+  tokenAddresses: {
+  4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // R Token
+  },
+  name: 'To the stars',
+  symbol: 'R-ETH LP',
+  tokenSymbol: 'R',
+  icon: '🚀',
   },
   //   pid: 1,
   //   lpAddresses: {
@@ -583,16 +583,16 @@ export const supportedPools = [
   icon: '🔪',
   },
   {
-  pid: 5,
-  lpAddresses: {
-  4: '0x2a92099e66068eb745f00eba95b48039cf934da3', // ROCKET LP
-  },
-  tokenAddresses: {
-  4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // R Token
-  },
-  name: 'To the stars',
-  symbol: 'R-ETH LP',
-  tokenSymbol: 'R',
-  icon: '🚀',
+    pid: 5,
+    lpAddresses: {
+      4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // LP Token Address
+    },
+    tokenAddresses: {
+      4: '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa', // Token, i.e. "DAI"
+    },
+    name: 'Dai Bank',
+    symbol: 'DAI-ETH LP',
+    tokenSymbol: 'DAI',
+    icon: '🕋',
   },
 ]
