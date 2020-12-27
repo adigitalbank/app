@@ -583,7 +583,7 @@ export const supportedPools = [
   icon: '🔪',
   },
   {
-  pid: 6,
+  pid: 5,
   lpAddresses: {
   4: '0x2a92099e66068eb745f00eba95b48039cf934da3', // ROCKET LP
   },
