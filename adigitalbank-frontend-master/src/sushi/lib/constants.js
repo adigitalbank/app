@@ -582,4 +582,17 @@ export const supportedPools = [
   tokenSymbol: 'MNG',
   icon: '🔪',
   },
+  {
+  pid: 6,
+  lpAddresses: {
+  4: '0x2a92099e66068eb745f00eba95b48039cf934da3', // ROCKET LP
+  },
+  tokenAddresses: {
+  4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // R Token
+  },
+  name: 'To the stars',
+  symbol: 'R-ETH LP',
+  tokenSymbol: 'R',
+  icon: '🚀',
+  },
 ]
