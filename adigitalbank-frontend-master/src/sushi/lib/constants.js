@@ -459,12 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // Z token
+    4: '0x1646767835a6afa201bac34d53718f4aa96cfd26', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
     //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0x13cD8eFd242b2B8163d074F6906f7a20912398A6',
+    4: '0xFD6bb3a85fFcd138a96A85C279BdF8ea59E99Fd4',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
