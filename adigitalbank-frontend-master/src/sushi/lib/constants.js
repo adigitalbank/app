@@ -459,12 +459,12 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0x1646767835a6afa201bac34d53718f4aa96cfd26', // Z token
+    4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Z token
     //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
-    //4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
-    4: '0xFD6bb3a85fFcd138a96A85C279BdF8ea59E99Fd4',
+    4: '0x92Bf24109753D7038D4Cf216D43850c81FA0a589',
+    //4: '0xFD6bb3a85fFcd138a96A85C279BdF8ea59E99Fd4',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -478,10 +478,10 @@ export const supportedPools = [
     {
   pid: 0,
   lpAddresses: {
-  4: '0x2a92099e66068eb745f00eba95b48039cf934da3', // ROCKET LP
+  4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // ROCKET LP
   },
   tokenAddresses: {
-  4: '0x0d8ce4ba0ad619642f3005bc716c2d28becef1e8', // R Token
+  4: '0x0D8CE4bA0AD619642f3005BC716c2D28becEf1e8', // R Token
   },
   name: 'To the stars',
   symbol: 'R-ETH LP',

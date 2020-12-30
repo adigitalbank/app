@@ -1,21 +1,18 @@
 //const DigitalBankToken = artifacts.require('DigitalBankToken.sol')
 const ZToken = artifacts.require('ZToken.sol')
 const yZToken = artifacts.require('yZToken.sol')
-const SushiBar = artifacts.require('SushiBar.sol')
+//const SushiBar = artifacts.require('SushiBar.sol')
 const MasterChef = artifacts.require('MasterChef.sol')
 
 module.exports = async function(deployer) {
-  // Deploy DB Token
-  //await deployer.deploy(DigitalBankToken)
-  //const dbToken = await DigitalBankToken.deployed()
-
+  // Deploy Z Token
   await deployer.deploy(ZToken)
   const zToken = await ZToken.deployed()
+  // Send some test tokens to dev *add as needed*
+  await zToken._mint('0xa0df350d2637096571F7A701CBc1C5fdE30dF76A', web3.utils.toWei(10000))
 
-  //await deployer.deploy(yZToken)
-  //const yzToken = await yZToken.deployed()
-
-  await deployer.deploy(SushiBar, zToken.address)
+  // deploy staking token reward token
+  await deployer.deploy(yZToken, zToken.address)
 
   // Deploy Masterchef Contract
   await deployer.deploy(
