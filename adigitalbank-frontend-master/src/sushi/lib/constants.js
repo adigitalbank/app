@@ -489,12 +489,12 @@ export const supportedPools = [
     icon: '🕋',
   },
   {
-    pid: 1,
+    pid: 6,
     lpAddresses: {
-      4: '0x37C0FD759C06c03B6b81f12dE36cCA4d195c19CA', // LP Token Address
+      4: '0x54816e345ff0348337fECFA1aED7279FB849D9c7', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Token, i.e. "Z"
+      4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F', // Token, i.e. "Z"
     },
     name: 'Rocket',
     symbol: 'Z-ETH LP',
