@@ -476,7 +476,7 @@ export const contractAddresses = {
 
 export const supportedPools = [
     {
-  pid: 0,
+  pid: 5,
   lpAddresses: {
   4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // ROCKET LP
   },
@@ -529,7 +529,7 @@ export const supportedPools = [
   // },
   
   {
-    pid: 2,
+    pid: 3,
     lpAddresses: {
       4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435',
     },
@@ -542,7 +542,7 @@ export const supportedPools = [
     icon: '🔪',
   },
   {
-    pid: 3,
+    pid: 4,
     lpAddresses: {
       4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
     },
@@ -555,7 +555,7 @@ export const supportedPools = [
     icon: '🔪',
   },
   {
-    pid: 4,
+    pid: 0,
     lpAddresses: {
       4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // LP Token Address
     },
