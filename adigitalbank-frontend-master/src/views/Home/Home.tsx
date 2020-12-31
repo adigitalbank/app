@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       >
         <Button text="🌌 See the Menu" to="/farms" variant="secondary" />
         <Spacer size="sm"/>
-        <Button text="Staking" to="/staking" variant="secondary" />
+        {/* <Button text="Staking" to="/staking" variant="secondary" /> */}
       </div>
     </Page>
   )
