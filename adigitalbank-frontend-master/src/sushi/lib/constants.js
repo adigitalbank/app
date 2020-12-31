@@ -459,101 +459,22 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    //4: '0xB6A3c8fcd5abed2A3Bad27a4FE4dA4c8073F4554', // Z token
-    4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
+    4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F', // Z token
+    //4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // DB Token
   },
   masterKey: {
-    4: '0xa7F5F520fA907766ebDe00b49226F9887bf1841B',
+    4: '0x3758b98B04899E6EF71b5F5Ec201F8fDdb9dbdEe',
     //4: '0xFD6bb3a85fFcd138a96A85C279BdF8ea59E99Fd4',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   },
   xSushi: {
-    4: '0xbC0B1af2156D1cfB25Dc243ee0F7108608d03D41',//'0xEbbfB4399B15199cDc993618bB06016822AeF9EE' // Staking token
+    4: '0x380f6C78027A8AC596A52a80233B164ddcE4cf12',//'0xEbbfB4399B15199cDc993618bB06016822AeF9EE' // Staking token
   }
 }
 
 export const supportedPools = [
-    {
-  pid: 5,
-  lpAddresses: {
-  4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // ROCKET LP
-  },
-  tokenAddresses: {
-  4: '0x0D8CE4bA0AD619642f3005BC716c2D28becEf1e8', // R Token
-  },
-  name: 'To the stars',
-  symbol: 'R-ETH LP',
-  tokenSymbol: 'R',
-  icon: '🚀',
-  },
-  //   pid: 1,
-  //   lpAddresses: {
-  //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
-  //   },
-  //   tokenAddresses: {
-  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
-  //   },
-  //   name: 'Digital Bank Central',
-  //   symbol: 'DB-ETH LP',
-  //   tokenSymbol: 'DB',
-  //   icon: '🏛',
-  // },
-  {
-    pid: 1,
-    lpAddresses: {
-      4: '0x37C0FD759C06c03B6b81f12dE36cCA4d195c19CA', // LP Token Address
-    },
-    tokenAddresses: {
-      4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Token, i.e. "Z"
-    },
-    name: 'Rocket',
-    symbol: 'Z-ETH LP',
-    tokenSymbol: 'Z',
-    icon: '🏛',
-  },
-  
-  // {
-  //   pid: 2,
-  //   lpAddresses: {
-  //     4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435', // proxy Token Address
-  //   },
-  //   tokenAddresses: {
-  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45', // proxy Token Address
-  //   },
-  //   name: 'We Love Diamonds',
-  //   symbol: 'Z Token',
-  //   tokenSymbol: 'Z',
-  //   icon: '💎',
-  // },
-  
-  {
-    pid: 3,
-    lpAddresses: {
-      4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435',
-    },
-    tokenAddresses: {
-      4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
-    },
-    name: 'Zed\'s Dead',
-    symbol: 'Z Token',
-    tokenSymbol: 'Z',
-    icon: '🔪',
-  },
-  {
-    pid: 4,
-    lpAddresses: {
-      4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
-    },
-    tokenAddresses: {
-      4: '0x4a972eb7faa52a91811bfee67237c921124ab718', // MNG Token
-    },
-    name: 'Miami Mango',
-    symbol: 'MNG-ETH LP',
-    tokenSymbol: 'MNG',
-    icon: '🔪',
-  },
   {
     pid: 0,
     lpAddresses: {
@@ -567,4 +488,88 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
+  {
+    pid: 1,
+    lpAddresses: {
+      4: '0x37C0FD759C06c03B6b81f12dE36cCA4d195c19CA', // LP Token Address
+    },
+    tokenAddresses: {
+      4: '0x1646767835A6Afa201baC34D53718f4AA96CFd26', // Token, i.e. "Z"
+    },
+    name: 'Rocket',
+    symbol: 'Z-ETH LP',
+    tokenSymbol: 'Z',
+    icon: '🏛',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F',
+    },
+    tokenAddresses: {
+      4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F',
+    },
+    name: 'We Love Diamonds',
+    symbol: 'Z Token',
+    tokenSymbol: 'Z',
+    icon: '💎',
+  },
+  {
+    pid: 3,
+    lpAddresses: {
+      4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
+    },
+    tokenAddresses: {
+      4: '0x4a972eb7faa52a91811bfee67237c921124ab718', // MNG Token
+    },
+    name: 'Miami Mango',
+    symbol: 'MNG-ETH LP',
+    tokenSymbol: 'MNG',
+    icon: '🔪',
+  },
+    {
+  pid: 5,
+  lpAddresses: {
+  4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // ROCKET LP
+  },
+  tokenAddresses: {
+  4: '0x0D8CE4bA0AD619642f3005BC716c2D28becEf1e8', // R Token
+  },
+  name: 'To the stars',
+  symbol: 'R-ETH LP',
+  tokenSymbol: 'R',
+  icon: '🚀',
+  },
+
+
+  //   pid: 1,
+  //   lpAddresses: {
+  //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
+  //   },
+  //   tokenAddresses: {
+  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
+  //   },
+  //   name: 'Digital Bank Central',
+  //   symbol: 'DB-ETH LP',
+  //   tokenSymbol: 'DB',
+  //   icon: '🏛',
+  // },
+ 
+
+  
+  // {
+  //   pid: 3,
+  //   lpAddresses: {
+  //     4: '0x34f570b261F6Fb5F2Aa7D370e09e0dEDa7b88435',
+  //   },
+  //   tokenAddresses: {
+  //     4: '0xf55E16D7013f8955bb862A716637d6267A288b45',
+  //   },
+  //   name: 'Zed\'s Dead',
+  //   symbol: 'Z Token',
+  //   tokenSymbol: 'Z',
+  //   icon: '🔪',
+  // },
+ 
+  
 ]
