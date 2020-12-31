@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: DB-ETH LP token pool yields 5x more token
+        🏆<b>Pro Tip</b>: Z-ETH LP token pool yields 5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />

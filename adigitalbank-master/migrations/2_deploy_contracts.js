@@ -9,10 +9,12 @@ module.exports = async function(deployer) {
   await deployer.deploy(ZToken)
   const zToken = await ZToken.deployed()
   // Send some test tokens to dev *add as needed*
-  await zToken._mint('0xa0df350d2637096571F7A701CBc1C5fdE30dF76A', web3.utils.toWei(10000))
+  //await zToken.mint('0xa0df350d2637096571F7A701CBc1C5fdE30dF76A', web3.utils.toBN(10000))
 
   // deploy staking token reward token
   await deployer.deploy(yZToken, zToken.address)
+  //const yzToken = await yzToken.deployed()
+  //yzToken.mint('0xa0df350d2637096571F7A701CBc1C5fdE30dF76A', web3.utils.toBN(10000))
 
   // Deploy Masterchef Contract
   await deployer.deploy(
