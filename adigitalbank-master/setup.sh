@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 # Deploy contracts
-truffle migrate --reset --network rinkeby
+truffle migrate --reset --network main
 
 # Verify Contracts on Etherscan
 #truffle run verify DigitalBankToken --network rinkeby --license SPDX-License-Identifier
-truffle run verify ZToken --network rinkeby --license SPDX-License-Identifier
+truffle run verify ZToken --network main --license SPDX-License-Identifier
 #truffle run verify yZToken --network rinkeby --license SPDX-License-Identifier
 #truffle run verify SushiBar --network rinkeby --license SPDX-License-Identifier
-truffle run verify MasterChef --network rinkeby --license SPDX-License-Identifier
+truffle run verify MasterChef --network main --license SPDX-License-Identifier
 
 # Flatten Contracts
 #./node_modules/.bin/truffle-flattener contracts/SushiToken.sol > flats/SushiToken_flat.sol

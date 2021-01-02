@@ -489,17 +489,17 @@ export const supportedPools = [
     icon: '🕋',
   },
   {
-    pid: 6,
+    pid: 3,
     lpAddresses: {
-      4: '0x54816e345ff0348337fECFA1aED7279FB849D9c7', // LP Token Address
+      4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
     },
     tokenAddresses: {
-      4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F', // Token, i.e. "Z"
+      4: '0x4a972eB7FAA52A91811BFEe67237c921124Ab718', // MNG Token
     },
-    name: 'Rocket',
-    symbol: 'Z-ETH LP',
-    tokenSymbol: 'Z',
-    icon: '🏛',
+    name: 'Miami Mango',
+    symbol: 'MNG-ETH LP',
+    tokenSymbol: 'MNG',
+    icon: '🔪',
   },
   {
     pid: 4,
@@ -514,19 +514,7 @@ export const supportedPools = [
     tokenSymbol: 'Z',
     icon: '💎',
   },
-  {
-    pid: 3,
-    lpAddresses: {
-      4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
-    },
-    tokenAddresses: {
-      4: '0x4a972eb7faa52a91811bfee67237c921124ab718', // MNG Token
-    },
-    name: 'Miami Mango',
-    symbol: 'MNG-ETH LP',
-    tokenSymbol: 'MNG',
-    icon: '🔪',
-  },
+  
     {
   pid: 5,
   lpAddresses: {
@@ -541,7 +529,19 @@ export const supportedPools = [
   icon: '🚀',
   },
 
-
+  {
+    pid: 6,
+    lpAddresses: {
+      4: '0x54816e345ff0348337fECFA1aED7279FB849D9c7', // LP Token Address
+    },
+    tokenAddresses: {
+      4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F', // Token, i.e. "Z"
+    },
+    name: 'Rocket',
+    symbol: 'Z-ETH LP',
+    tokenSymbol: 'Z',
+    icon: '🏛',
+  },
   //   pid: 1,
   //   lpAddresses: {
   //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
