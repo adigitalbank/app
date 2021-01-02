@@ -1,1 +1,1 @@
-# A Digital Bank
+# DeFi project to farm new liquid tokens.

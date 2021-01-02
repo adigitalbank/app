@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && cp ./build/index.html ./build/200.html && surge ./build adigitalbank.io"
+    "deploy": "yarn build && cp ./build/index.html ./build/200.html && surge ./build rocket.fi"
   },
   "eslintConfig": {
     "extends": "react-app"

