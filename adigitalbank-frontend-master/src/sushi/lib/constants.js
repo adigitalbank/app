@@ -459,10 +459,10 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   db: {
-    4: '0xf6fed98BF322A0CE47f6aC8d80312503d42Bab5F', // Z token
+    4: '0x0D8CE4bA0AD619642f3005BC716c2D28becEf1e8', // Z token
   },
   masterKey: {
-    4: '0x3758b98B04899E6EF71b5F5Ec201F8fDdb9dbdEe',
+    4: '0x13cD8eFd242b2B8163d074F6906f7a20912398A6',
   },
   weth: {
     4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -476,10 +476,10 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x03E6c12eF405AC3F642B9184eDed8E1322de1a9e', // LP Token Address
+      4: '0x2a92099E66068Eb745F00ebA95B48039CF934DA3', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa', // Token, i.e. "DAI"
+      4: '0x0D8CE4bA0AD619642f3005BC716c2D28becEf1e8', // Token, i.e. "DAI"
     },
     name: 'Dai Bank',
     symbol: 'DAI-ETH LP',
