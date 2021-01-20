@@ -486,19 +486,7 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
-   {
-     pid: 1,
-     lpAddresses: {
-       4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
-     },
-     tokenAddresses: {
-       4: '0x4a972eB7FAA52A91811BFEe67237c921124Ab718', // MNG Token
-     },
-     name: 'Miami Mango',
-     symbol: 'MNG-ETH LP',
-     tokenSymbol: 'MNG',
-     icon: '👨🏻‍',
-   },
+
   // {
   //   pid: 4,
   //   lpAddresses: {
@@ -540,21 +528,21 @@ export const supportedPools = [
   //   tokenSymbol: 'Z',
   //   icon: '🏛',
   // },
-  //   pid: 1,
-  //   lpAddresses: {
-  //     4: '0xB2467706A6BC6458CF8D71ae32b82BC839271e2e', // LP Token Address
-  //   },
-  //   tokenAddresses: {
-  //     4: '0x5D4748Bf9b17344BA65535a7368aF6C1D04299C0', // Token, i.e. "DB"
-  //   },
-  //   name: 'Digital Bank Central',
-  //   symbol: 'DB-ETH LP',
-  //   tokenSymbol: 'DB',
-  //   icon: '🏛',
-  // },
- 
-
   
+  {
+    pid: 1,
+    lpAddresses: {
+     4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647',
+    },
+     tokenAddresses: {
+     4: '0x4a972eB7FAA52A91811BFEe67237c921124Ab718',
+     },
+     name: 'MANGO',
+     symbol: 'MNG-ETH LP',
+     tokenSymbol: 'MNG',
+     icon: '🏛',
+   },
+ 
   // {
   //   pid: 3,
   //   lpAddresses: {
