@@ -486,19 +486,19 @@ export const supportedPools = [
     tokenSymbol: 'DAI',
     icon: '🕋',
   },
-  // {
-  //   pid: 3,
-  //   lpAddresses: {
-  //     4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
-  //   },
-  //   tokenAddresses: {
-  //     4: '0x4a972eB7FAA52A91811BFEe67237c921124Ab718', // MNG Token
-  //   },
-  //   name: 'Miami Mango',
-  //   symbol: 'MNG-ETH LP',
-  //   tokenSymbol: 'MNG',
-  //   icon: '🔪',
-  // },
+   {
+     pid: 1,
+     lpAddresses: {
+       4: '0x56AB521EFc870A82ee1b830dc06aebd64dEfA647', // MANGO LP
+     },
+     tokenAddresses: {
+       4: '0x4a972eB7FAA52A91811BFEe67237c921124Ab718', // MNG Token
+     },
+     name: 'Miami Mango',
+     symbol: 'MNG-ETH LP',
+     tokenSymbol: 'MNG',
+     icon: '👨🏻‍',
+   },
   // {
   //   pid: 4,
   //   lpAddresses: {
